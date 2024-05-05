@@ -1,91 +1,66 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Starter Kit",
-  "logo": {
-    "dark": "/logo/dark.svg",
-    "light": "/logo/light.svg"
-  },
+  "name": "Lotro Delver Docs",
   "favicon": "/favicon.svg",
+  "modeToggle": {
+    "default": "dark"
+  },
   "colors": {
-    "primary": "#0D9373",
-    "light": "#07C983",
-    "dark": "#0D9373",
+    "primary": "#0A0E14",
+    "light": "#f1ab0b",
+    "dark": "#f1ab0b",
+    "background": {
+      "dark": "#0a0e14",
+      "light": "#F8FAFC"
+    },
     "anchors": {
       "from": "#0D9373",
       "to": "#07C983"
     }
   },
+  "feedback": {
+    "thumbsRating": false,
+    "raiseIssue": false,
+    "suggestEdit": false  
+  },
   "topbarLinks": [
     {
-      "name": "Support",
-      "url": "mailto:hi@mintlify.com"
+      "name": "Discord",
+      "url": "https://discord.gg/ZFXe2wceuJ"
     }
   ],
   "topbarCtaButton": {
-    "name": "Dashboard",
-    "url": "https://dashboard.mintlify.com"
+    "name": "Visit Lotro Delver",
+    "url": "https://lotro-delver.com"
   },
   "tabs": [
     {
-      "name": "API Reference",
-      "url": "api-reference"
-    }
-  ],
-  "anchors": [
-    {
-      "name": "Documentation",
-      "icon": "book-open-cover",
-      "url": "https://mintlify.com/docs"
-    },
-    {
-      "name": "Community",
-      "icon": "slack",
-      "url": "https://mintlify.com/community"
-    },
-    {
-      "name": "Blog",
-      "icon": "newspaper",
-      "url": "https://mintlify.com/blog"
-    }
+      "name": "Changelog",
+      "url": "changelog"
+    }  
   ],
   "navigation": [
     {
-      "group": "Get Started",
+      "group": "General Information",
       "pages": [
-        "introduction",
-        "quickstart",
-        "development"
+        "welcome",
+        "about",
+        "contributors",
+        "faq",
+        "roadmap"
       ]
     },
     {
-      "group": "Essentials",
+      "group": "Changelog - App",
       "pages": [
-        "essentials/markdown",
-        "essentials/code",
-        "essentials/images",
-        "essentials/settings",
-        "essentials/navigation",
-        "essentials/reusable-snippets"
+        "changelog/app/overview_app"
       ]
     },
     {
-      "group": "API Documentation",
+      "group": "Changelog - Data",
       "pages": [
-        "api-reference/introduction"
-      ]
-    },
-    {
-      "group": "Endpoint Examples",
-      "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/delete"
+        "changelog/data/overview_data"
       ]
     }
-  ],
-  "footerSocials": {
-    "x": "https://x.com/mintlify",
-    "github": "https://github.com/mintlify",
-    "linkedin": "https://www.linkedin.com/company/mintsearch"
-  }
+  ]
 }
