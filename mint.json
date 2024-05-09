@@ -24,6 +24,10 @@
     {
       "name": "Discord",
       "url": "https://discord.gg/ZFXe2wceuJ"
+    },
+    {
+      "name": "Submit a Bug",
+      "url": "https://github.com/Valardir/docs/issues/new?assignees=&labels=&projects=&template=bug_report.md&title=%5BBUG%5D+YourTitel"
     }
   ],
   "topbarCtaButton": {
