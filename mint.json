@@ -2,9 +2,6 @@
   "$schema": "https://mintlify.com/schema.json",
   "name": "Lotro Delver Docs",
   "favicon": "/favicon.svg",
-  "modeToggle": {
-    "default": "dark"
-  },
   "colors": {
     "primary": "#0A0E14",
     "light": "#f1ab0b",
@@ -33,33 +30,27 @@
     "name": "Visit Lotro Delver",
     "url": "https://lotro-delver.com"
   },
-  "tabs": [
-    {
-      "name": "Changelog",
-      "url": "changelog"
-    }  
-  ],
   "navigation": [
     {
       "group": "General Information",
       "pages": [
-        "welcome",
         "about",
         "contributors",
         "faq",
-        "roadmap"
+        "roadmap",
+        "changelog-app",
+        "changelog-data",
+        "account"
       ]
     },
     {
-      "group": "Changelog - App",
+      "group": "Item Delver Docs",
       "pages": [
-        "changelog/app/overview_app"
-      ]
-    },
-    {
-      "group": "Changelog - Data",
-      "pages": [
-        "changelog/data/overview_data"
+        "overview-itemdelver",
+        "item",
+        "item-search",
+        "item-compare",
+        "build-generator"
       ]
     }
   ]

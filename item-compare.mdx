@@ -1,0 +1,29 @@
+---
+title: "Compare Items"
+mode: "wide"
+---
+
+The Item Compare feature allows you to compare two or more items side by side. This feature is especially useful when you are unsure which item to choose or when you want to compare the stats of two items.
+It is possible to drag and drop the item containers. This position is currently not saved!
+
+There are currently three ways to mark items for comparison:
+
+1. **Flag on Item Lister**: You can flag items and then click the "Compare" button.
+
+<Frame>
+    <img src="/images/compare1.png"  />
+</Frame>
+
+2. **Compare Button in Item View**: You can click the "Compare" button in the item view.
+
+<Frame>
+    <img src="/images/compare2.png"  />
+</Frame>
+
+3. **URL Query Parameters**: You can use the URL query parameters to compare items. This also makes it possible to share the comparison with others.
+
+    ```/items/compare?item1={itemId}&item2={itemId}&itemn={itemId}```
+
+--- 
+
+<Info> Items are stored in the browser's session storage. This means that the marked items are lost when the browser is closed. </Info>
